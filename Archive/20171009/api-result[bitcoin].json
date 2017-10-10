@@ -1,0 +1,36 @@
+["bitcoin",
+[
+	"Bitcoin",
+	"Bitcoin network",
+	"Bitcoin scalability problem",
+	"Bitcoin Cash",
+	"Bitcoin Core",
+	"Bitcoin ATM",
+	"Bitcoin Foundation",
+	"Bitcoin faucet",
+	"Bitcoin Unlimited",
+	"Bitcoin Magazine"
+],
+[
+	"Bitcoin is a worldwide cryptocurrency and digital payment system called the first decentralized digital currency, as the system works without a central repository or single administrator.",
+	"The bitcoin network is a peer-to-peer payment network that operates on a cryptographic protocol. Users send and receive bitcoins, the units of currency, by broadcasting digitally signed messages to the network using bitcoin cryptocurrency wallet software.",
+	"The bitcoin scalability problem is a consequence of the fact that blocks in the blockchain are limited to one megabyte in size.",
+	"Bitcoin Cash (BCC) is a hard fork of the cryptocurrency bitcoin. The fork occurred on August 1, 2017.",
+	"Bitcoin Core is a reference client of bitcoin. Initially, the software was published by Satoshi Nakamoto under the name Bitcoin, then Bitcoin-Qt and later renamed to Bitcoin Core.",
+	"A bitcoin ATM is an internet machine that allows a person to exchange bitcoins and cash. Some Bitcoin ATMs offer bi-directional functionality; these machines enable both the purchase of Bitcoin as well as the redemption of Bitcoin for cash.",
+	"The Bitcoin Foundation is an American nonprofit corporation. It was founded in September 2012 with the stated mission to \"standardize, protect and promote the use of bitcoin cryptographic money for the benefit of users worldwide.\" The organization was modeled on the Linux Foundation and is funded mainly through grants made by for-profit companies that depend on the bitcoin technology.",
+	"Bitcoin faucets are a reward system, in the form of a website or app, that dispenses rewards in the form of a satoshi, which is a hundredth of a millionth BTC, for visitors to claim in exchange for completing a captcha or task as described by the website.",
+	"Bitcoin Unlimited (BU) is a full node software client for the bitcoin network. Compared to the Bitcoin Core client hard-coding the block size limit to 1 megabyte, from which it is forked, Bitcoin Unlimited does not hard-code the limit, allowing the users to signal which block size limit they prefer, find the limit having a majority consensus and set their block size limit to that value.",
+	"Bitcoin Magazine is one of the original news and print magazine publishers specializing in Bitcoin and digital currencies."
+],
+[
+	"https://en.wikipedia.org/wiki/Bitcoin","https://en.wikipedia.org/wiki/Bitcoin_network",
+	"https://en.wikipedia.org/wiki/Bitcoin_scalability_problem",
+	"https://en.wikipedia.org/wiki/Bitcoin_Cash","https://en.wikipedia.org/wiki/Bitcoin_Core",
+	"https://en.wikipedia.org/wiki/Bitcoin_ATM",
+	"https://en.wikipedia.org/wiki/Bitcoin_Foundation",
+	"https://en.wikipedia.org/wiki/Bitcoin_faucet",
+	"https://en.wikipedia.org/wiki/Bitcoin_Unlimited",
+	"https://en.wikipedia.org/wiki/Bitcoin_Magazine"
+]
+]

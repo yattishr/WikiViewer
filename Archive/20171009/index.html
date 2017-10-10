@@ -1,0 +1,89 @@
+<html>
+    <head>
+        <title>freeCodeCamp Zipline ~ Wikipedia Viewer</title>
+            <link rel="stylesheet" href="styles/styles.css">        
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.1">
+            <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+            <meta name="description" content="Wikipedia Viewer">
+            <meta name="author" content="dESIGN wORX fACTORY">
+
+            <!-- Bootstrap core CSS -->
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+
+            <!-- Font Awesome icons -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>            
+            
+            
+            <script>
+                $(document).ready(function() { 
+                    window.onload = function() {
+                        console.log("Inside onload function...");
+                        document.getElementById("basicQuery").focus();
+                    }
+                });
+            </script>
+                
+        <body>
+        <script src="js/scripts.js"></script>
+        <div class="row">
+            <div class="container">
+                <!-- use formatting to change the color and style of the jumbotron control -->
+                <div class="jumbotron">
+                    <p class="text-center"><i class="fa fa-wikipedia-w fa-4x fa-border" id="displayIcon">ikipedia Viewer</i></p>
+                </div>            
+            </div>                            
+        </div>
+        <br>
+        <div class="container" id="container_main">
+          <div class="row">
+            <div class="col">
+                <label for="basic-url"><em>Your Wiki Search</em></label>
+                <div class="input-group input-group-lg">
+                    <span class="input-group-addon" id="basic-addon3">Search Wikipedia</span>
+                    <input type="text" class="form-control" id="basicQuery" aria-describedby="basic-addon3" placeholder="Search...">
+                </div>
+                <br>
+            </div>
+          </div>
+        </div>
+      <br>
+      <div class="container" id="container_sub">
+          <div class="row">
+                <div class="col-6">
+                    <button id="btnSearch" class="btn btn-block btn-info btn-md center-block" style="width: 200px" onclick="getSearchResults();">
+                        <i class="fa fa-search" aria-hidden="true"></i> Search
+                    </button>
+                </div>
+                <div class="col-6">
+                    <button id="btnRandom" class="btn btn-block btn-success btn-md center-block" style="width: 200px">
+                        <i class="fa fa-superpowers" aria-hidden="true"></i> I'm Feeling Wiki
+                    </button>
+                </div>                
+          </div>
+        <br>
+        <ul class="nav nav-tabs">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Search Results...</a>                      
+          </li>
+        </ul>  
+            <br>
+            <div class="list-group" id="listgroup">
+              <a href="#" class="list-group-item" id="listitem">Dapibus ac facilisis in</a>
+              <a href="#" class="list-group-item">Cras sit amet nibh libero</a>
+              <a href="#" class="list-group-item">Porta ac consectetur ac</a>
+              <a href="#" class="list-group-item">Vestibulum at eros</a>
+              <a href="#" class="list-group-item">Feliz na vi dad. Lorem ip solreum</a>
+            </div>                    
+      </div>
+              
+
+
+        
+            
+        </body>
+    </head>
+</html>

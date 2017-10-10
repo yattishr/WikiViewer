@@ -1,0 +1,91 @@
+.list-group-hover .list-group-item:hover {
+    background-color: #f5f5f5;
+}
+
+.list-group-item-heading
+{
+    font-family: verdana;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+body { 
+    /*background-image: url('https://farm5.staticflickr.com/4433/37278914862_1ba249c423_h.jpg');*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: auto;
+    background-color: rgb(245,245,245);
+}
+
+.dislpay-card {
+    width: 800px;
+    height: 250px; 
+    position:absolute; /*it can be fixed too*/
+    left:0; right:0;
+    top: 0; bottom:0;
+    margin: auto;
+    background-color: transparent !important;
+    font-family: verdana;
+    font-weight: bold;
+    font-size: 200%;
+    color: black;
+}      
+
+
+.dislpay-time {
+    width: 800px;
+    height: 150px; 
+    position:absolute; /*it can be fixed too*/
+    left:0; right:0;
+    top: 0; bottom:0;
+    margin: auto;
+    background-color: transparent !important;
+    font-family: verdana;
+    font-weight: bold;
+    font-size: 200%;
+    color: whitesmoke;
+} 
+
+#container_main {
+    background-color: silver;
+}
+
+.jumbotron {
+    background-color: transparent !important;    
+    color: black;
+    border-radius: 1;
+    height: 100px;
+}
+
+#current_conditions, #current_description {
+    font-family: verdana;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+}
+
+#current_location {
+    font-family: verdana;
+    font-weight: normal;
+    font-size: 15px;
+    text-align: center;
+}
+
+.center {
+    position:absolute;
+    height: X px;
+    width: Y px;
+    left:50%;
+    top:50%;
+    margin-top:- X/2 px;
+    margin-left:- Y/2 px;
+} 
+
+i {
+    text-align:center;
+}
+
+#clickableAwesomeFont {
+     cursor: pointer
+}
